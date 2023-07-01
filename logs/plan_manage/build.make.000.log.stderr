@@ -1,0 +1,37 @@
+In file included from [01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/fast_planner_node.cpp:29:0[m[K:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/include/plan_manage/kino_replan_fsm.h:43:10:[m[K [01;31m[Kfatal error: [m[Kplan_manage/Bspline.h: 没有那个文件或目录
+ #include [01;31m[K<plan_manage/Bspline.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o] Error 1
+make[2]: *** 正在等待未完成的任务....
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid bsplineCallback(plan_manage::BsplineConstPtr)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:134:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->knots.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:138:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->pos_pts.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:150:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->yaw_pts.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:211:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kyawdot[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   double yaw, [01;35m[Kyawdot[m[K;
+               [01;35m[K^~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:237:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos_err[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kpos_err[m[K = pos_f - pos;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:211:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kyaw[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   double [01;35m[Kyaw[m[K, yawdot;
+          [01;35m[K^~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::KinoReplanFSM::execFSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:149:10:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KREPLAN_NEW[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+   switch [01;35m[K([m[Kexec_state_) {
+          [01;35m[K^[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::KinoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:258:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool            [01;35m[Knew_goal[m[K = false;
+                       [01;35m[K^~~~~~~~[m[K
+make[1]: *** [CMakeFiles/fast_planner_node.dir/all] Error 2
+make: *** [all] Error 2

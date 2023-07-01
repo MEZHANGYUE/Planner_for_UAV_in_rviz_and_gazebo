@@ -1,0 +1,6 @@
+devel_space: /home/yue/example_in_github/planner-px4-gazebo/devel
+install: false
+install_space: /home/yue/example_in_github/planner-px4-gazebo/install
+profile: default
+source_space: /home/yue/example_in_github/planner-px4-gazebo/src
+workspace: /home/yue/example_in_github/planner-px4-gazebo

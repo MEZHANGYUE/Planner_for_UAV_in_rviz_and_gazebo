@@ -1,0 +1,7 @@
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/interface/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/interface/src/controller.cpp:127:128:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Katan2[m[K’
+             double angle_ = (((atan2(2*(cos(angle / 2)*sin(angle / 2)),(1-(2*(sin(angle / 2)*sin(angle / 2)))))) - current_yaw)[01;31m[Katan2[m[K(2*(cos(angle / 2)*sin(angle / 2)),(1-(2*(sin(angle / 2)*sin(angle / 2)))))) - current_yaw;
+                                                                                                                                [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

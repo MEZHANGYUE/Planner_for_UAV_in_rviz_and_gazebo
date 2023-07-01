@@ -1,0 +1,57 @@
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopoReplanFSM::execFSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:219:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+         Eigen::Vector3d [01;35m[Kstart_pos[m[K = info->start_pos_;
+                         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:299:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool         [01;35m[Knew_goal[m[K = false;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopoReplanFSM::callSearchAndOptimization()[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:374:50:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ bool TopoReplanFSM::callSearchAndOptimization() {[01;35m[K}[m[K
+                                                  [01;35m[K^[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::initPlanModules(ros::NodeHandle&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:49:83:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuse_active_perception[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool use_geometric_path, use_kinodynamic_path, use_topo_path, use_optimization, [01;35m[Kuse_active_perception[m[K;
+                                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::kinodynamicReplan(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:146:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   Eigen::Vector3d [01;35m[Kinit_pos[m[K = start_pt;
+                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:147:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_vel[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   Eigen::Vector3d [01;35m[Kinit_vel[m[K = start_vel;
+                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:148:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinit_acc[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   Eigen::Vector3d [01;35m[Kinit_acc[m[K = start_acc;
+                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::planGlobalTraj(const Vector3d&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:266:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < points.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kbool fast_planner::FastPlannerManager::topoReplan(bool)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:377:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:383:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < select_paths.size()[m[K; ++i) optimize_threads[i].join();
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::refineTraj(fast_planner::NonUniformBspline&, double&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:411:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_iter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   const int [01;35m[Kmax_iter[m[K = 1;
+             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::reparamBspline(fast_planner::NonUniformBspline&, double, Eigen::MatrixXd&, double&, double&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:439:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_num[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int    [01;35m[Kprev_num[m[K    = bspline.getControlPoint().rows();
+          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::optimizeTopoBspline(double, double, std::vector<Eigen::Matrix<double, 3, 1> >, int)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:484:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   if ([01;35m[Kguide_pt.size() != int(ctrl_pts.rows()) - 6[m[K) ROS_WARN("what guide");
+       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::planYaw(const Vector3d&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:671:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < waypts.size()[m[K; ++i) path_yaw.push_back(waypts[i][0]);
+                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastPlannerManager::findCollisionRange(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:587:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kt_e[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   sn = ceil([01;35m[K(t_mp - t_e)[m[K / dt);
+             [01;35m[K~~~~~~^~~~~~[m[K

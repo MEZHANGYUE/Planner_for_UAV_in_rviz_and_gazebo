@@ -1,0 +1,7 @@
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/interface/src/controller.cpp:[m[K In function ‘[01m[Kvoid state_cb(const ConstPtr&)[m[K’:
+[01m[K/home/yue/example_in_github/planner-px4-gazebo/src/interface/src/controller.cpp:20:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+     std::cout << "get state message" <<[01;31m[K<[m[K std::endl;
+                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

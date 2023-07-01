@@ -1,0 +1,1 @@
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline_opt/share/bspline_opt/cmake/bspline_optConfig.cmake

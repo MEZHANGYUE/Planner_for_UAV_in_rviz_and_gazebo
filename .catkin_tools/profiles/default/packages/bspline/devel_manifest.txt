@@ -1,0 +1,6 @@
+Fast-Planner/fast_planner/bspline
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/cmake.lock /home/yue/example_in_github/planner-px4-gazebo/devel/./cmake.lock
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/lib/libbspline.so /home/yue/example_in_github/planner-px4-gazebo/devel/lib/libbspline.so
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/lib/pkgconfig/bspline.pc /home/yue/example_in_github/planner-px4-gazebo/devel/lib/pkgconfig/bspline.pc
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/share/bspline/cmake/bsplineConfig.cmake /home/yue/example_in_github/planner-px4-gazebo/devel/share/bspline/cmake/bsplineConfig.cmake
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/share/bspline/cmake/bsplineConfig-version.cmake /home/yue/example_in_github/planner-px4-gazebo/devel/share/bspline/cmake/bsplineConfig-version.cmake

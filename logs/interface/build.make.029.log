@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target controller[0m
+[ 50%] Built target navigator
+[ 75%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yue/example_in_github/planner-px4-gazebo/devel/.private/interface/lib/interface/controller[0m
+[100%] Built target controller

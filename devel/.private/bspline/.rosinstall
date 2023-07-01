@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yue/example_in_github/planner-px4-gazebo/devel/.private/bspline/setup.sh

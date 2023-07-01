@@ -1,0 +1,8 @@
+prefix=/home/yue/example_in_github/planner-px4-gazebo/install
+
+Name: interface
+Description: Description of interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

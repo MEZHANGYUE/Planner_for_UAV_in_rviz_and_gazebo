@@ -1,0 +1,1 @@
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/poly_traj/share/poly_traj/cmake/poly_trajConfig.cmake

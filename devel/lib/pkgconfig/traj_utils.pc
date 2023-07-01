@@ -1,0 +1,1 @@
+/home/yue/example_in_github/planner-px4-gazebo/devel/.private/traj_utils/lib/pkgconfig/traj_utils.pc
